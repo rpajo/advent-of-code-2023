@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("../../inputs/01/input.txt");
+    let input: &str = include_str!("../../inputs/01/input.txt");
 
     let result: u32 = input.lines()
         .map(|line| line.trim())
